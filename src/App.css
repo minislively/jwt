@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(219, 219, 219);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: white;
+  width: 350px;
+  border: 2px solid black;
+  padding: 10px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input {
+  border: 0.5px solid rgb(219, 219, 219);
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.btn {
+  margin: 20px 0px;
+  background-color: rgb(93, 93, 230);
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+h3 {
+  color: blue;
+  font-size: 14px;
+}
+
+a {
+  font-weight: 600;
+  color: rgb(93, 93, 230);
+  text-decoration: none;
+}
